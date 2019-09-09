@@ -136,10 +136,10 @@ SELECT MAX(total) FROM invoice;
 SELECT MIN(total) FROM invoice;
 
 -- QUESTION 4
-SELECT MAX(total) FROM invoice WHERE total > 5;
+SELECT * FROM invoice WHERE total > 5;
 
 -- QUESTION 5
- SELECT MAX(total) FROM invoice WHERE total < 5;
+ SELECT * FROM invoice WHERE total < 5;
 
 --  QUESTION 6
 SELECT COUNT(*) FROM invoice WHERE billing_state IN ('CA', 'TX', 'AZ');
